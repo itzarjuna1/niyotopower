@@ -17,17 +17,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "29271987"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("7f64fefc37d03b7281060321d4ed5035")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8196761691:AAFSpAAO-_pCpfjSbTIMWNGefPMvNhE8pAg")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 
 CLEANMODE_DELETE_MINS = int(
@@ -69,12 +69,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002843572899"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6961287189").split())
+    map(int, getenv("OWNER_ID", "7487670897").split())
 )  # Input type must be interger
 
 
@@ -95,7 +95,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Rani0086/Xeno-kakarot-",
+    "https://github.com/Gxinfinity/niyotopower",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -108,14 +108,14 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/mlohvdryj"
+    "SUPPORT_CHANNEL", "https://t.me/dark_x_knight_musiczz_support"
 )  # Example:- https://t.me/VIP_CREATORS
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/Crunchyrol_Anime_In_Hindi_India"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/Crunchyrol_Anime_In_Hindi_India"
+    "SUPPORT_GROUP", "https://t.me/+9BfnSgBRqAs4M2M1"
 )  # Example:- https://t.me/TG_FRIENDSS
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
@@ -178,7 +178,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @VIPStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQG-p7MAcJuyxPrlPmdKrPBn49Ryl-vHSN0gXy5sKr5sWEY87b5H2b4lnALJgumAzcMLmKgS40wAPrHdk8pwalTzirVQBNgQCfpaY-5W5Aj8-nL7IvKgXW_RlgXVpEtn_2iCaqGf6cJW2HoDc-n1ofDLCu7katiGnKzo37WWa9MDjT4QSiLaoTkXrruQbKbQdlh2DUx3dbpgKhL0NP4TeEA8b4GiWq8Y7ZOKikYZhiVtjzqRUKiSAWAqFI1X3ZfRv9k55tkgB2mwTJrfXgrVTDgAWRKuluvAitpb6Mpii1PxrzDAf90T7dQgW1Md9fWV5Tr5Wh1mfxOJknOPiokUfIKcm_fdrwAAAAHbA4EyAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -211,7 +211,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/nk4ljm.jpg",
+    "https://graph.org/file/a2fcf8b4ef4087473818c-f812627a9ef012cff5.jpg",
 )
 
 PING_IMG_URL = getenv(
