@@ -35,7 +35,7 @@ def private_panel(_):
         [
             InlineKeyboardButton(text="𝐆𝚁𝙾𝚄𝙿", url=config.SUPPORT_GROUP),
             InlineKeyboardButton(text="𝐌ᴏʀᴇ", url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text="owner", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="owner", url="https://t.me/your_owner_username"),
         ],
         [
             InlineKeyboardButton(
