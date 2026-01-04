@@ -91,7 +91,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 #yt api key
-YOUTUBE=
+YOUTUBE_API_KEY = "YOUR_KEY_HERE"
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
