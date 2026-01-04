@@ -90,6 +90,8 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
+#yt api key
+YOUTUBE=
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
