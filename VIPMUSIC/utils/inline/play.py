@@ -67,6 +67,7 @@ def stream_markup_timerr(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(
                 text=" ✦Sᴜᴘᴘᴏʀᴛ📢 ", url="https://t.me/snowy_hometown",
             )
+    ]
     return buttons
 
 
